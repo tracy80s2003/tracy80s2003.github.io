@@ -23,7 +23,7 @@ a {
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: #1b86ad;
     text-decoration: underline;
 }
 
