@@ -20,6 +20,8 @@ a {
 }
 
 img {
+    height: auto;
+    max-width: 100%;
     float: left;
     margin: 15px;
     border-radius: 15px;
@@ -36,13 +38,18 @@ a:hover {
     color: rgb(198, 170, 184) !important;
 }
 
-.navbar {
+.nav-item {
+    padding-left: 15px;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
-@media (max-width: 767px) {
-    .navbar {
+#form {
+    padding: 25px;
+}
+
+@media (max-width: 767px) body.open-menu {
+    .navbar-brand {
         display: block;
+        overflow: hidden;
     }
 }
