@@ -47,7 +47,7 @@ a:hover {
     padding: 25px;
 }
 
-@media (max-width: 767px) body.open-menu {
+@media (max-width: 767px) {
     .navbar-brand {
         display: block;
         overflow: hidden;
