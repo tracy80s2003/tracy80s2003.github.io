@@ -4,7 +4,7 @@ h1 {
     line-height: 54px;
     margin: 0;
     padding: 15px;
-}
+} 
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -21,35 +21,35 @@ a {
 
 img {
     height: auto;
-    max-width: 100%;
+    width: 50%;
     float: left;
     margin: 15px;
     border-radius: 15px;
 }
 
-.active {
-    background-color: #4c75af;
-    color: #FFFFFF;
-    border-radius: 15px;
-    margin: 25px;
-  }
-
 a:hover {
     color: rgb(198, 170, 184) !important;
 }
 
-.nav-item {
-    padding-left: 15px;
-    justify-content: space-between;
+h3 {
+    padding-top: 15px;
 }
 
 #form {
-    padding: 25px;
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
-@media (max-width: 767px) {
-    .navbar-brand {
-        display: block;
-        overflow: hidden;
-    }
-}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
