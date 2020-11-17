@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 nav {
     margin-bottom: 15px;
 }
@@ -35,6 +36,7 @@ a {
     margin: 15px;
     border-radius: 15px;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
