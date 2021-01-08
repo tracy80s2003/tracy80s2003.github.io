@@ -20,6 +20,8 @@ The nav bar is consistent on all 3 pages and there are working links to each pag
 ## Features
 Hover over text links for a different color.
 
+## Portfolio Screenshot:
+<img src="./assets/images/portfolio-screenshot.png" />
 
 ## Portfolio Repository
 https://github.com/tracy80s2003/tracy80s2003.github.io
