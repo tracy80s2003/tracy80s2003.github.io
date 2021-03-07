@@ -57,13 +57,13 @@ a {
 }
 
 .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: rgb(181, 45, 199);
     color: #fff;
 }
 
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 a:hover {
