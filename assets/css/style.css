@@ -62,6 +62,11 @@ a {
     color: #fff;
 }
 
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 a:hover {
     color: rgb(198, 170, 184) !important;
 }
