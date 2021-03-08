@@ -47,13 +47,27 @@ a {
     margin: auto;
 }
 
+#layers-widget-column-61 {
+    background-color: rgb(198, 170, 184);
+}
+
+.grid {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
 .footer {
-    color: #fff !important;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
     line-height: 60px; /* Vertically center the text there */
-    background-color: rgb(181, 45, 199) !important;
     flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     padding: 20px;
-  }
+}
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 a:hover {
     color: rgb(198, 170, 184) !important;
