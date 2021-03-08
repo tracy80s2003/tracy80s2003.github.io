@@ -47,13 +47,15 @@ a {
     margin: auto;
 }
 
-#layers-widget-column-61 {
+.endorsement {
     background-color: rgb(198, 170, 184);
+    font-size: 14px;
+    line-height: 22px;
 }
 
-.grid {
-    margin-left: -10px;
-    margin-right: -10px;
+.endorsement-person {
+    text-align: right;
+    font-style: italic;
 }
 
 .footer {
