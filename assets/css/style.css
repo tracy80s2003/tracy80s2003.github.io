@@ -51,10 +51,7 @@ a {
     background-color: rgb(198, 170, 184);
     font-size: 14px;
     line-height: 22px;
-}
-
-.endorsement-person {
-    font-style: italic;
+    margin: 15px;
 }
 
 .footer {
