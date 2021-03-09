@@ -64,7 +64,7 @@
     <p>You can also fill out the form below to send me an email.</p>
     <section class="row">
         <section class="col-md-4">
-          <section id="form">
+          <form id="form" action="mailto:tracy80s2003@gmail.com" method="post" enctype="text/plain">
             <section class="form-group">
               <label for="firstName">First Name</label>
               <input type="text" class="form-control" id="firstName" aria-describedby="firstName" placeholder="Enter First Name" required>
@@ -82,8 +82,9 @@
               <label for="questionsComments">Questions/Comments</label>
               <input type="text" class="form-control" id="questionsComments" aria-describedby="questionsComments" placeholder="Enter Text">
             </section>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </section>
+            <button type="submit" class="btn btn-primary">Submit</button> &nbsp;
+            <button type="reset" class="btn btn-primary">Reset</button>
+          </form>
         </section>  
       </section>
     </section>
