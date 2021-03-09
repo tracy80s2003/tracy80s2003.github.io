@@ -23,9 +23,6 @@ body {
     margin-bottom: 100px;
     min-height: 400px;
     clear: both;
-}
-
-body .bg-img {
     background-image: url('../images/gradient.png');
     background-position: center;
     background-repeat: no-repeat;
