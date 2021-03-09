@@ -22,7 +22,7 @@ body {
     flex-wrap: wrap;
     margin-bottom: 100px;
     min-height: 400px;
-    background-image: url('gradient.png');
+    background-image: url('../images/gradient.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
