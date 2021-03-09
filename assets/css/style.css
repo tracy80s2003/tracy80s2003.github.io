@@ -22,11 +22,14 @@ body {
     flex-wrap: wrap;
     margin-bottom: 100px;
     min-height: 400px;
-    background-image: url('../images/gradient.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     clear: both;
+}
+
+.bg-img {
+    background-image: url('../images/gradient.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p {
